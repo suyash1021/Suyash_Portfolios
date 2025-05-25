@@ -1,6 +1,5 @@
-// next.config.mjs (keep the filename as .mjs)
-
-export default {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
@@ -8,3 +7,5 @@ export default {
   basePath: "/Suyash_Portfolios",
   assetPrefix: "/Suyash_Portfolios/",
 };
+
+module.exports = nextConfig;
