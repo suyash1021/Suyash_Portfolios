@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-    output: 'export',
-
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  basePath: "/Suyash_Portfolios", // Match your repo name
+  assetPrefix: "/Suyash_Portfolios/",
 };
 
-export default nextConfig;
+module.exports = nextConfig;
